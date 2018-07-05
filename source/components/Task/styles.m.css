@@ -43,13 +43,19 @@
         }
     }
 
+    & .toggleTaskFavoriteState,
+    & .updateTaskMessageOnClick {
+          margin-right: 20px;
+          display: inline-block;
+      }
+    & .delete {
+          width: 17px;
+          height: 17px;
+          margin-right: 0;
+      }
+
     & .actions {
         min-width: 100px;
-
-        & .toggleTaskFavoriteState,
-        & .updateTaskMessageOnClick {
-            margin-right: 20px;
-        }
     }
 
     @media (width <= 740px) {

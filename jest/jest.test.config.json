@@ -5,8 +5,12 @@
     "verbose": true,
     "notify": true,
     "bail": false,
-    "collectCoverage": false,
-    "collectCoverageFrom": ["<rootDir>/source/components/**/*.js"],
+    "collectCoverage": true,
+    "collectCoverageFrom":
+        [
+            "<rootDir>/source/components/**/*.js",
+            "<rootDir>/source/REST/**/*.js"
+        ],
     "modulePaths": ["<rootDir>/source", "<rootDir>/node_modules"],
     "moduleFileExtensions": ["js", "json", "css"],
     "setupFiles": ["<rootDir>/jest/scripts/setupFiles.js"],
